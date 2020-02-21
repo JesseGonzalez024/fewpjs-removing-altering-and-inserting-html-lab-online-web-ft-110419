@@ -1,3 +1,5 @@
 document.querySelector('main').remove()
 
-let newHeader = 
+let newHeader = document.createElement('h1')
+newHeader.id = 'victory'
+
